@@ -1,6 +1,6 @@
 ﻿namespace Hangman
 {
-    partial class frmHangman
+    partial class Form_Game
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmHangman));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Game));
             this.cmdA = new System.Windows.Forms.Button();
             this.cmdB = new System.Windows.Forms.Button();
             this.hangImage = new System.Windows.Forms.PictureBox();
@@ -415,7 +415,7 @@
             this.restart_Button.UseVisualStyleBackColor = true;
             this.restart_Button.Click += new System.EventHandler(this.restart_Button_Click);
             // 
-            // frmHangman
+            // Form_Game
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -452,8 +452,9 @@
             this.Controls.Add(this.hangImage);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "frmHangman";
-            this.Text = "frmHangman";
+            this.Name = "Form_Game";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Hangman";
             this.Load += new System.EventHandler(this.frmHangman_Load);
             this.Click += new System.EventHandler(this.guessClick);
             ((System.ComponentModel.ISupportInitialize)(this.hangImage)).EndInit();

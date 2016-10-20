@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace Hangman
 {
-    public partial class frmHangman : Form
+    public partial class Form_Game : Form
     {
         private Bitmap[] hangImages = {Hangman.Properties.Resources.Hang1, Hangman.Properties.Resources.Hang2,
                                        Hangman.Properties.Resources.Hang3, Hangman.Properties.Resources.Hang4,
@@ -17,7 +17,7 @@ namespace Hangman
         private string copyCurrent = "";
         private string[] words;
 
-        public frmHangman()
+        public Form_Game()
         {
             InitializeComponent();
         }
