@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmHangman));
             this.cmdA = new System.Windows.Forms.Button();
             this.cmdB = new System.Windows.Forms.Button();
             this.hangImage = new System.Windows.Forms.PictureBox();
@@ -449,6 +450,7 @@
             this.Controls.Add(this.cmdB);
             this.Controls.Add(this.cmdA);
             this.Controls.Add(this.hangImage);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmHangman";
             this.Text = "frmHangman";
