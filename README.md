@@ -1,8 +1,7 @@
 # Hangman
 IS 7024 Hangman project
 
-<h1>To Do List</h1>
-<section>
+To Do List
 >utilize try/catch/finally error handling on the guess click(Currently clicking anything except a letter button that hasn't been clicked or the reset button causes an error.
 >Add additional words to the word library.
 >Create a Start screen
@@ -14,4 +13,3 @@ IS 7024 Hangman project
 >Consider adding a win streak label 2 options 
   -if restart is hit add one to the win streak counter.(requires some coding on reset to know not to add if its done before they win or if they lose. Or if they lose they could -1 to wins)
   -add another word button and restart could become a back to menu button  
-</section>
