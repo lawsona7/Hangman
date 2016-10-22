@@ -73,40 +73,60 @@ namespace Hangman
         private void guessClick(object sender, EventArgs e)
         {
             Button choice = sender as Button;
-            choice.Enabled = false; //* wont let them hit the same button if its wrong replace this function with letter bank
-            if (current.Contains(choice.Text))
+            try
             {
-                char[] temp = copyCurrent.ToCharArray();
-                char[] find = current.ToCharArray();
-                char guessChar = choice.Text.ElementAt(0);
-                for (int index = 0; index < find.Length ; index++)
+                choice.Enabled = false;
+            }
+            catch
+            {
+            }
+            finally
+            {
+            }
+            try
+            {
+                if (current.Contains(choice.Text))
                 {
-                    if (find[index] == guessChar )
+                    char[] temp = copyCurrent.ToCharArray();
+                    char[] find = current.ToCharArray();
+                    char guessChar = choice.Text.ElementAt(0);
+                    for (int index = 0; index < find.Length; index++)
                     {
-                        temp[index] = guessChar;
+                        if (find[index] == guessChar)
+                        {
+                            temp[index] = guessChar;
+                        }
                     }
-                }
-                copyCurrent = new string(temp);
-                displayCopy();
+                    copyCurrent = new string(temp);
+                    displayCopy();
 
+                }
+                else
+                {
+                    wrongGuesses++;
+                }
+                if (wrongGuesses < 7)
+                {
+                    hangImage.Image = hangImages[wrongGuesses];
+                }
+                else
+                {
+                    lblResult.Text = "Sorry You Lose!";
+                    lblShowWord.Text = current;
+                }
+                if (copyCurrent.Equals(current))
+                {
+                    lblResult.Text = "You Win!";
+                }
             }
-            else
+            catch
             {
-                wrongGuesses++;
             }
-            if (wrongGuesses < 7)
+            finally
             {
-                hangImage.Image = hangImages[wrongGuesses];
-            }
-            else
-            {
-                lblResult.Text = "Sorry You Lose!";
-            }
-            if (copyCurrent.Equals(current))
-            {
-                lblResult.Text = "You Win!";
             }
         }
+
 
         private void frmHangman_Load(object sender, EventArgs e)
         {
@@ -127,8 +147,6 @@ namespace Hangman
                     reset.Enabled = true;
                 }
             }
-            //*cmdA button2_Click.Controls choice.enabled to true
-            //* need to make it so reset button resets buttons.
         }
     }
 }

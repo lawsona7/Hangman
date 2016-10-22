@@ -17,3 +17,12 @@ C:\Users\Aaron\Documents\GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.Proper
 C:\Users\Aaron\Documents\GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.csproj.GenerateResource.Cache
 C:\Users\Aaron\Documents\GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.Form_Game.resources
 C:\Users\Aaron\Documents\GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.Form_StartMenu.resources
+C:\Users\Aaron Lawson\Documents\GitHub\Hangman\Hangman\Hangman\bin\Debug\Hangman.exe.config
+C:\Users\Aaron Lawson\Documents\GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.exe
+C:\Users\Aaron Lawson\Documents\GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.pdb
+C:\Users\Aaron Lawson\Documents\GitHub\Hangman\Hangman\Hangman\bin\Debug\Hangman.exe
+C:\Users\Aaron Lawson\Documents\GitHub\Hangman\Hangman\Hangman\bin\Debug\Hangman.pdb
+C:\Users\Aaron Lawson\Documents\GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.csprojResolveAssemblyReference.cache
+C:\Users\Aaron Lawson\Documents\GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.Form_Game.resources
+C:\Users\Aaron Lawson\Documents\GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.Properties.Resources.resources
+C:\Users\Aaron Lawson\Documents\GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.csproj.GenerateResource.Cache
