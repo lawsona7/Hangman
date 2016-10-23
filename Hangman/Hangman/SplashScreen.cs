@@ -24,6 +24,8 @@ namespace Hangman
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Form_Game game = new Form_Game();
+            game.Show();
 
         }
 
@@ -45,6 +47,12 @@ namespace Hangman
         private void button4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form_Game game = new Form_Game();
+            game.Show();
         }
     }
 }
