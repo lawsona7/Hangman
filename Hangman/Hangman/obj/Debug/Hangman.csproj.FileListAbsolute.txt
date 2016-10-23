@@ -26,3 +26,6 @@ C:\Users\Aaron Lawson\Documents\GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman
 C:\Users\Aaron Lawson\Documents\GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.Form_Game.resources
 C:\Users\Aaron Lawson\Documents\GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.Properties.Resources.resources
 C:\Users\Aaron Lawson\Documents\GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.csproj.GenerateResource.Cache
+C:\Users\brian\Source\Repos\Hangman2\Hangman\Hangman\bin\Debug\Hangman.exe.config
+C:\Users\brian\Source\Repos\Hangman2\Hangman\Hangman\obj\Debug\Hangman.exe
+C:\Users\brian\Source\Repos\Hangman2\Hangman\Hangman\obj\Debug\Hangman.pdb
