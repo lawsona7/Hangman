@@ -3,7 +3,6 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Windows.Forms;
-using System.Threading;
 
 namespace Hangman
 {
@@ -14,23 +13,13 @@ namespace Hangman
                                        Hangman.Properties.Resources.Hang5, Hangman.Properties.Resources.Hang6,
                                        Hangman.Properties.Resources.Hang7};
         private int wrongGuesses = 0;
-        private string level = "";
         private string current = "";
         private string copyCurrent = "";
         private string[] words;
 
         public Form_Game()
         {
-            Thread t = new Thread(new ThreadStart(SplashStart));
-            t.Start();
-            Thread.Sleep(5000);
             InitializeComponent();
-            t.Abort();
-        }
-
-        public void SplashStart()
-        {
-            Application.Run(new SplashScreen());
         }
 
         private void loadwords() //*load words in*/
@@ -158,21 +147,6 @@ namespace Hangman
                     reset.Enabled = true;
                 }
             }
-        }
-
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
-
-        private void toolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void normalToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            
         }
     }
 }
