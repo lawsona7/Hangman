@@ -66,7 +66,7 @@
             // 
             // cmdA
             // 
-            this.cmdA.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.cmdA.BackColor = System.Drawing.SystemColors.ControlDark;
             this.cmdA.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdA.Location = new System.Drawing.Point(332, 400);
             this.cmdA.Name = "cmdA";
@@ -78,7 +78,7 @@
             // 
             // cmdB
             // 
-            this.cmdB.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.cmdB.BackColor = System.Drawing.SystemColors.ControlDark;
             this.cmdB.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdB.Location = new System.Drawing.Point(394, 400);
             this.cmdB.Name = "cmdB";
@@ -121,7 +121,7 @@
             // 
             // cmdC
             // 
-            this.cmdC.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.cmdC.BackColor = System.Drawing.SystemColors.ControlDark;
             this.cmdC.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdC.Location = new System.Drawing.Point(456, 400);
             this.cmdC.Name = "cmdC";
@@ -133,7 +133,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button1.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(640, 400);
             this.button1.Name = "button1";
@@ -145,7 +145,7 @@
             // 
             // cmdE
             // 
-            this.cmdE.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.cmdE.BackColor = System.Drawing.SystemColors.ControlDark;
             this.cmdE.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdE.Location = new System.Drawing.Point(578, 400);
             this.cmdE.Name = "cmdE";
@@ -157,7 +157,7 @@
             // 
             // cmdD
             // 
-            this.cmdD.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.cmdD.BackColor = System.Drawing.SystemColors.ControlDark;
             this.cmdD.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdD.Location = new System.Drawing.Point(517, 400);
             this.cmdD.Name = "cmdD";
@@ -169,7 +169,7 @@
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button4.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(826, 400);
             this.button4.Name = "button4";
@@ -181,7 +181,7 @@
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button5.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.Location = new System.Drawing.Point(766, 400);
             this.button5.Name = "button5";
@@ -193,7 +193,7 @@
             // 
             // button6
             // 
-            this.button6.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button6.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.Location = new System.Drawing.Point(703, 400);
             this.button6.Name = "button6";
@@ -205,7 +205,7 @@
             // 
             // button7
             // 
-            this.button7.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button7.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.Location = new System.Drawing.Point(456, 459);
             this.button7.Name = "button7";
@@ -217,7 +217,7 @@
             // 
             // button8
             // 
-            this.button8.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button8.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button8.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.Location = new System.Drawing.Point(394, 459);
             this.button8.Name = "button8";
@@ -229,7 +229,7 @@
             // 
             // button9
             // 
-            this.button9.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button9.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button9.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.Location = new System.Drawing.Point(332, 459);
             this.button9.Name = "button9";
@@ -241,7 +241,7 @@
             // 
             // button10
             // 
-            this.button10.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button10.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button10.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button10.Location = new System.Drawing.Point(640, 459);
             this.button10.Name = "button10";
@@ -253,7 +253,7 @@
             // 
             // button11
             // 
-            this.button11.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button11.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button11.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button11.Location = new System.Drawing.Point(578, 459);
             this.button11.Name = "button11";
@@ -265,7 +265,7 @@
             // 
             // button12
             // 
-            this.button12.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button12.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button12.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button12.Location = new System.Drawing.Point(517, 459);
             this.button12.Name = "button12";
@@ -277,7 +277,7 @@
             // 
             // button13
             // 
-            this.button13.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button13.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button13.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button13.Location = new System.Drawing.Point(826, 459);
             this.button13.Name = "button13";
@@ -289,7 +289,7 @@
             // 
             // button14
             // 
-            this.button14.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button14.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button14.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button14.Location = new System.Drawing.Point(766, 459);
             this.button14.Name = "button14";
@@ -301,7 +301,7 @@
             // 
             // button15
             // 
-            this.button15.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button15.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button15.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button15.Location = new System.Drawing.Point(703, 459);
             this.button15.Name = "button15";
@@ -313,7 +313,7 @@
             // 
             // button16
             // 
-            this.button16.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button16.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button16.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button16.Location = new System.Drawing.Point(456, 517);
             this.button16.Name = "button16";
@@ -325,7 +325,7 @@
             // 
             // button17
             // 
-            this.button17.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button17.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button17.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button17.Location = new System.Drawing.Point(394, 517);
             this.button17.Name = "button17";
@@ -337,7 +337,7 @@
             // 
             // button18
             // 
-            this.button18.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button18.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button18.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button18.Location = new System.Drawing.Point(332, 517);
             this.button18.Name = "button18";
@@ -349,7 +349,7 @@
             // 
             // button19
             // 
-            this.button19.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button19.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button19.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button19.Location = new System.Drawing.Point(640, 517);
             this.button19.Name = "button19";
@@ -361,7 +361,7 @@
             // 
             // button20
             // 
-            this.button20.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button20.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button20.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button20.Location = new System.Drawing.Point(578, 517);
             this.button20.Name = "button20";
@@ -373,7 +373,7 @@
             // 
             // button21
             // 
-            this.button21.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button21.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button21.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button21.Location = new System.Drawing.Point(517, 517);
             this.button21.Name = "button21";
@@ -385,7 +385,7 @@
             // 
             // button23
             // 
-            this.button23.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button23.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button23.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button23.Location = new System.Drawing.Point(766, 517);
             this.button23.Name = "button23";
@@ -397,7 +397,7 @@
             // 
             // button24
             // 
-            this.button24.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button24.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button24.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button24.Location = new System.Drawing.Point(703, 517);
             this.button24.Name = "button24";
