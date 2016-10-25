@@ -5,4 +5,4 @@ IS 7024 Hangman project
 Group members and role  
   -Aaron Lawson-Game screen and management    
   -Brian Bartish-Start Screen and management  
-  -Scott Sorrel-Design and management  
+  -Scott Sorrel-Design, logic, and management  
