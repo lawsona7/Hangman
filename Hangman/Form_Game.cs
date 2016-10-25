@@ -3,12 +3,21 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Windows.Forms;
+using WMPLib;
+using System.Threading;
 
 namespace Hangman
 {
     public partial class Form_Game : Form
     {
+        WindowsMediaPlayer player = new WindowsMediaPlayer();
+        Thread th;
 
+        public Form_Game()
+        {
+            InitializeComponent();
+            player.URL = "The Good the Bad and the Ugly.mp3";
+        }
         private Bitmap[] hangImages = {Hangman.Properties.Resources.Hang1, Hangman.Properties.Resources.Hang2,
                                        Hangman.Properties.Resources.Hang3, Hangman.Properties.Resources.Hang4,
                                        Hangman.Properties.Resources.Hang5, Hangman.Properties.Resources.Hang6,
@@ -17,11 +26,6 @@ namespace Hangman
         private string current = "";
         private string copyCurrent = "";
         private string[] words;
-        SplashScreen GameDifficulty { get; set; }
-        public Form_Game()
-        {
-            InitializeComponent();
-        }
 
         private void loadwords() //*load words in*/
         {

@@ -171,6 +171,16 @@ namespace Hangman.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] The_Good_the_Bad_and_the_Ugly {
+            get {
+                object obj = ResourceManager.GetObject("The_Good_the_Bad_and_the_Ugly", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap You_Lose {
