@@ -142,6 +142,18 @@
   <ItemGroup>
     <None Include="Resources\Hangman Logo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background Image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\You Lose.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\high-noon-original.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\You Win.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

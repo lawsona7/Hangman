@@ -29,3 +29,4 @@ C:\Users\Aaron Lawson\Documents\GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman
 C:\Users\brian\Source\Repos\Hangman2\Hangman\Hangman\bin\Debug\Hangman.exe.config
 C:\Users\brian\Source\Repos\Hangman2\Hangman\Hangman\obj\Debug\Hangman.exe
 C:\Users\brian\Source\Repos\Hangman2\Hangman\Hangman\obj\Debug\Hangman.pdb
+C:\Users\Aaron Lawson\Documents\GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.SplashScreen.resources

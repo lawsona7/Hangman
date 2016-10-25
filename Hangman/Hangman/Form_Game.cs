@@ -16,7 +16,7 @@ namespace Hangman
         private string current = "";
         private string copyCurrent = "";
         private string[] words;
-
+        SplashScreen GameDifficulty { get; set; }
         public Form_Game()
         {
             InitializeComponent();
@@ -39,6 +39,7 @@ namespace Hangman
 
         private void setupWordChoice() //* selects a word randomly*/
         {
+
             wrongGuesses = 0;
             hangImage.Image = hangImages[wrongGuesses];
             int guessIndex = (new Random()).Next(words.Length);
@@ -111,12 +112,16 @@ namespace Hangman
                 }
                 else
                 {
-                    lblResult.Text = "Sorry You Lose!";
+                    lblWinLose.Text = "Better Luck Next Time";
                     lblShowWord.Text = current;
+                    pictureBox1.Image = Hangman.Properties.Resources.You_Lose;
+                    lblWinLose.BackColor = Color.Gainsboro;
                 }
                 if (copyCurrent.Equals(current))
                 {
-                    lblResult.Text = "You Win!";
+                    lblWinLose.Text = "You Got Him!";
+                    pictureBox1.Image = Hangman.Properties.Resources.You_Win;
+                    lblWinLose.BackColor = Color.Gainsboro;
                 }
             }
             catch
@@ -138,8 +143,10 @@ namespace Hangman
         private void restart_Button_Click(object sender, EventArgs e)
         {
             setupWordChoice();
-            lblResult.Text = "";
-            foreach(var item in this.Controls)
+            lblWinLose.BackColor = Color.Transparent;
+            lblWinLose.Text = "";
+            pictureBox1.Image = Hangman.Properties.Resources.high_noon_original;
+            foreach (var item in this.Controls)
             {
                 if (item.GetType().Equals(typeof(Button)))
                 {
