@@ -48,9 +48,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button1.Font = new System.Drawing.Font("Playbill", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(240, 421);
+            this.button1.Location = new System.Drawing.Point(240, 661);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(539, 76);
+            this.button1.Size = new System.Drawing.Size(1400, 76);
             this.button1.TabIndex = 7;
             this.button1.Text = "Start Game";
             this.button1.UseVisualStyleBackColor = false;
@@ -62,9 +62,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.button2.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button2.Font = new System.Drawing.Font("Playbill", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(240, 548);
+            this.button2.Location = new System.Drawing.Point(240, 788);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(539, 76);
+            this.button2.Size = new System.Drawing.Size(1400, 76);
             this.button2.TabIndex = 8;
             this.button2.Text = "Exit";
             this.button2.UseVisualStyleBackColor = false;
@@ -74,10 +74,10 @@
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.label1.Font = new System.Drawing.Font("Playbill", 24F);
-            this.label1.Location = new System.Drawing.Point(209, 160);
+            this.label1.Font = new System.Drawing.Font("Playbill", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 160);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(642, 71);
+            this.label1.Size = new System.Drawing.Size(1983, 95);
             this.label1.TabIndex = 9;
             this.label1.Text = "The Hangman\'s Corner";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -89,7 +89,7 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1020, 795);
+            this.ClientSize = new System.Drawing.Size(1881, 1035);
             this.ControlBox = false;
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);

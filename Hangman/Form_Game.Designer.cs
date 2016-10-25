@@ -70,10 +70,10 @@
             // 
             this.cmdA.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.cmdA.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.cmdA.Font = new System.Drawing.Font("Playbill", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdA.Location = new System.Drawing.Point(341, 575);
+            this.cmdA.Font = new System.Drawing.Font("Playbill", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdA.Location = new System.Drawing.Point(905, 922);
             this.cmdA.Name = "cmdA";
-            this.cmdA.Size = new System.Drawing.Size(46, 52);
+            this.cmdA.Size = new System.Drawing.Size(71, 52);
             this.cmdA.TabIndex = 1;
             this.cmdA.Text = "a";
             this.cmdA.UseVisualStyleBackColor = false;
@@ -83,10 +83,10 @@
             // 
             this.cmdB.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.cmdB.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.cmdB.Font = new System.Drawing.Font("Playbill", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdB.Location = new System.Drawing.Point(403, 575);
+            this.cmdB.Font = new System.Drawing.Font("Playbill", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdB.Location = new System.Drawing.Point(999, 922);
             this.cmdB.Name = "cmdB";
-            this.cmdB.Size = new System.Drawing.Size(46, 52);
+            this.cmdB.Size = new System.Drawing.Size(70, 52);
             this.cmdB.TabIndex = 2;
             this.cmdB.Text = "b";
             this.cmdB.UseVisualStyleBackColor = false;
@@ -98,9 +98,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.hangImage.BackColor = System.Drawing.SystemColors.Control;
             this.hangImage.Image = ((System.Drawing.Image)(resources.GetObject("hangImage.Image")));
-            this.hangImage.Location = new System.Drawing.Point(319, 1);
+            this.hangImage.Location = new System.Drawing.Point(687, -16);
             this.hangImage.Name = "hangImage";
-            this.hangImage.Size = new System.Drawing.Size(581, 457);
+            this.hangImage.Size = new System.Drawing.Size(1406, 729);
             this.hangImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.hangImage.TabIndex = 0;
             this.hangImage.TabStop = false;
@@ -110,9 +110,9 @@
             this.lblWinLose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblWinLose.BackColor = System.Drawing.Color.Transparent;
             this.lblWinLose.Font = new System.Drawing.Font("Playbill", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWinLose.Location = new System.Drawing.Point(906, 245);
+            this.lblWinLose.Location = new System.Drawing.Point(2099, 575);
             this.lblWinLose.Name = "lblWinLose";
-            this.lblWinLose.Size = new System.Drawing.Size(290, 45);
+            this.lblWinLose.Size = new System.Drawing.Size(682, 127);
             this.lblWinLose.TabIndex = 3;
             // 
             // lblShowWord
@@ -121,9 +121,9 @@
             this.lblShowWord.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.lblShowWord.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblShowWord.Font = new System.Drawing.Font("Playbill", 24F);
-            this.lblShowWord.Location = new System.Drawing.Point(309, 470);
+            this.lblShowWord.Location = new System.Drawing.Point(687, 765);
             this.lblShowWord.Name = "lblShowWord";
-            this.lblShowWord.Size = new System.Drawing.Size(606, 84);
+            this.lblShowWord.Size = new System.Drawing.Size(1411, 84);
             this.lblShowWord.TabIndex = 4;
             this.lblShowWord.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -131,10 +131,10 @@
             // 
             this.cmdC.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.cmdC.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.cmdC.Font = new System.Drawing.Font("Playbill", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdC.Location = new System.Drawing.Point(465, 575);
+            this.cmdC.Font = new System.Drawing.Font("Playbill", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdC.Location = new System.Drawing.Point(1088, 922);
             this.cmdC.Name = "cmdC";
-            this.cmdC.Size = new System.Drawing.Size(46, 52);
+            this.cmdC.Size = new System.Drawing.Size(76, 52);
             this.cmdC.TabIndex = 5;
             this.cmdC.Text = "c";
             this.cmdC.UseVisualStyleBackColor = false;
@@ -144,10 +144,10 @@
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button1.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button1.Font = new System.Drawing.Font("Playbill", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(649, 575);
+            this.button1.Font = new System.Drawing.Font("Playbill", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(1369, 922);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(46, 52);
+            this.button1.Size = new System.Drawing.Size(63, 52);
             this.button1.TabIndex = 8;
             this.button1.Text = "f";
             this.button1.UseVisualStyleBackColor = false;
@@ -157,10 +157,10 @@
             // 
             this.cmdE.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.cmdE.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.cmdE.Font = new System.Drawing.Font("Playbill", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdE.Location = new System.Drawing.Point(587, 575);
+            this.cmdE.Font = new System.Drawing.Font("Playbill", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdE.Location = new System.Drawing.Point(1282, 922);
             this.cmdE.Name = "cmdE";
-            this.cmdE.Size = new System.Drawing.Size(46, 52);
+            this.cmdE.Size = new System.Drawing.Size(64, 52);
             this.cmdE.TabIndex = 7;
             this.cmdE.Text = "e";
             this.cmdE.UseVisualStyleBackColor = false;
@@ -170,10 +170,10 @@
             // 
             this.cmdD.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.cmdD.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.cmdD.Font = new System.Drawing.Font("Playbill", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdD.Location = new System.Drawing.Point(526, 575);
+            this.cmdD.Font = new System.Drawing.Font("Playbill", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdD.Location = new System.Drawing.Point(1187, 922);
             this.cmdD.Name = "cmdD";
-            this.cmdD.Size = new System.Drawing.Size(46, 52);
+            this.cmdD.Size = new System.Drawing.Size(74, 52);
             this.cmdD.TabIndex = 6;
             this.cmdD.Text = "d";
             this.cmdD.UseVisualStyleBackColor = false;
@@ -183,10 +183,10 @@
             // 
             this.button4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button4.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button4.Font = new System.Drawing.Font("Playbill", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(835, 575);
+            this.button4.Font = new System.Drawing.Font("Playbill", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(1619, 922);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(46, 52);
+            this.button4.Size = new System.Drawing.Size(63, 52);
             this.button4.TabIndex = 11;
             this.button4.Text = "i";
             this.button4.UseVisualStyleBackColor = false;
@@ -196,10 +196,10 @@
             // 
             this.button5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button5.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button5.Font = new System.Drawing.Font("Playbill", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(775, 575);
+            this.button5.Font = new System.Drawing.Font("Playbill", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(1535, 922);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(46, 52);
+            this.button5.Size = new System.Drawing.Size(70, 52);
             this.button5.TabIndex = 10;
             this.button5.Text = "h";
             this.button5.UseVisualStyleBackColor = false;
@@ -209,10 +209,10 @@
             // 
             this.button6.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button6.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button6.Font = new System.Drawing.Font("Playbill", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(712, 575);
+            this.button6.Font = new System.Drawing.Font("Playbill", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Location = new System.Drawing.Point(1454, 922);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(46, 52);
+            this.button6.Size = new System.Drawing.Size(64, 52);
             this.button6.TabIndex = 9;
             this.button6.Text = "g";
             this.button6.UseVisualStyleBackColor = false;
@@ -222,10 +222,10 @@
             // 
             this.button7.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button7.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button7.Font = new System.Drawing.Font("Playbill", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(465, 634);
+            this.button7.Font = new System.Drawing.Font("Playbill", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Location = new System.Drawing.Point(1088, 981);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(46, 54);
+            this.button7.Size = new System.Drawing.Size(76, 54);
             this.button7.TabIndex = 14;
             this.button7.Text = "l";
             this.button7.UseVisualStyleBackColor = false;
@@ -235,10 +235,10 @@
             // 
             this.button8.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button8.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button8.Font = new System.Drawing.Font("Playbill", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(403, 634);
+            this.button8.Font = new System.Drawing.Font("Playbill", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.Location = new System.Drawing.Point(999, 981);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(46, 54);
+            this.button8.Size = new System.Drawing.Size(70, 54);
             this.button8.TabIndex = 13;
             this.button8.Text = "k";
             this.button8.UseVisualStyleBackColor = false;
@@ -248,10 +248,10 @@
             // 
             this.button9.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button9.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button9.Font = new System.Drawing.Font("Playbill", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(341, 634);
+            this.button9.Font = new System.Drawing.Font("Playbill", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.Location = new System.Drawing.Point(905, 981);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(46, 54);
+            this.button9.Size = new System.Drawing.Size(71, 54);
             this.button9.TabIndex = 12;
             this.button9.Text = "j";
             this.button9.UseVisualStyleBackColor = false;
@@ -261,10 +261,10 @@
             // 
             this.button10.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button10.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button10.Font = new System.Drawing.Font("Playbill", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.Location = new System.Drawing.Point(649, 634);
+            this.button10.Font = new System.Drawing.Font("Playbill", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.Location = new System.Drawing.Point(1369, 981);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(46, 54);
+            this.button10.Size = new System.Drawing.Size(63, 54);
             this.button10.TabIndex = 17;
             this.button10.Text = "o";
             this.button10.UseVisualStyleBackColor = false;
@@ -274,10 +274,10 @@
             // 
             this.button11.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button11.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button11.Font = new System.Drawing.Font("Playbill", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Location = new System.Drawing.Point(587, 634);
+            this.button11.Font = new System.Drawing.Font("Playbill", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.Location = new System.Drawing.Point(1282, 981);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(46, 54);
+            this.button11.Size = new System.Drawing.Size(64, 54);
             this.button11.TabIndex = 16;
             this.button11.Text = "n";
             this.button11.UseVisualStyleBackColor = false;
@@ -287,10 +287,10 @@
             // 
             this.button12.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button12.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button12.Font = new System.Drawing.Font("Playbill", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.Location = new System.Drawing.Point(526, 634);
+            this.button12.Font = new System.Drawing.Font("Playbill", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button12.Location = new System.Drawing.Point(1187, 981);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(46, 54);
+            this.button12.Size = new System.Drawing.Size(74, 54);
             this.button12.TabIndex = 15;
             this.button12.Text = "m";
             this.button12.UseVisualStyleBackColor = false;
@@ -300,10 +300,10 @@
             // 
             this.button13.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button13.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button13.Font = new System.Drawing.Font("Playbill", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button13.Location = new System.Drawing.Point(835, 634);
+            this.button13.Font = new System.Drawing.Font("Playbill", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button13.Location = new System.Drawing.Point(1619, 981);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(46, 54);
+            this.button13.Size = new System.Drawing.Size(63, 54);
             this.button13.TabIndex = 20;
             this.button13.Text = "r";
             this.button13.UseVisualStyleBackColor = false;
@@ -313,10 +313,10 @@
             // 
             this.button14.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button14.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button14.Font = new System.Drawing.Font("Playbill", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button14.Location = new System.Drawing.Point(775, 634);
+            this.button14.Font = new System.Drawing.Font("Playbill", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button14.Location = new System.Drawing.Point(1535, 981);
             this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(46, 54);
+            this.button14.Size = new System.Drawing.Size(70, 54);
             this.button14.TabIndex = 19;
             this.button14.Text = "q";
             this.button14.UseVisualStyleBackColor = false;
@@ -326,10 +326,10 @@
             // 
             this.button15.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button15.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button15.Font = new System.Drawing.Font("Playbill", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button15.Location = new System.Drawing.Point(712, 634);
+            this.button15.Font = new System.Drawing.Font("Playbill", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button15.Location = new System.Drawing.Point(1454, 981);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(46, 54);
+            this.button15.Size = new System.Drawing.Size(64, 54);
             this.button15.TabIndex = 18;
             this.button15.Text = "p";
             this.button15.UseVisualStyleBackColor = false;
@@ -339,10 +339,10 @@
             // 
             this.button16.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button16.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button16.Font = new System.Drawing.Font("Playbill", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button16.Location = new System.Drawing.Point(465, 692);
+            this.button16.Font = new System.Drawing.Font("Playbill", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button16.Location = new System.Drawing.Point(1088, 1039);
             this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(46, 52);
+            this.button16.Size = new System.Drawing.Size(76, 52);
             this.button16.TabIndex = 23;
             this.button16.Text = "u";
             this.button16.UseVisualStyleBackColor = false;
@@ -352,10 +352,10 @@
             // 
             this.button17.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button17.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button17.Font = new System.Drawing.Font("Playbill", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button17.Location = new System.Drawing.Point(403, 692);
+            this.button17.Font = new System.Drawing.Font("Playbill", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button17.Location = new System.Drawing.Point(999, 1039);
             this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(46, 52);
+            this.button17.Size = new System.Drawing.Size(70, 52);
             this.button17.TabIndex = 22;
             this.button17.Text = "t";
             this.button17.UseVisualStyleBackColor = false;
@@ -365,10 +365,10 @@
             // 
             this.button18.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button18.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button18.Font = new System.Drawing.Font("Playbill", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button18.Location = new System.Drawing.Point(341, 692);
+            this.button18.Font = new System.Drawing.Font("Playbill", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button18.Location = new System.Drawing.Point(905, 1039);
             this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(46, 52);
+            this.button18.Size = new System.Drawing.Size(71, 52);
             this.button18.TabIndex = 21;
             this.button18.Text = "s";
             this.button18.UseVisualStyleBackColor = false;
@@ -378,10 +378,10 @@
             // 
             this.button19.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button19.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button19.Font = new System.Drawing.Font("Playbill", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button19.Location = new System.Drawing.Point(649, 692);
+            this.button19.Font = new System.Drawing.Font("Playbill", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button19.Location = new System.Drawing.Point(1369, 1039);
             this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(46, 52);
+            this.button19.Size = new System.Drawing.Size(63, 52);
             this.button19.TabIndex = 26;
             this.button19.Text = "x";
             this.button19.UseVisualStyleBackColor = false;
@@ -391,10 +391,10 @@
             // 
             this.button20.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button20.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button20.Font = new System.Drawing.Font("Playbill", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button20.Location = new System.Drawing.Point(587, 692);
+            this.button20.Font = new System.Drawing.Font("Playbill", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button20.Location = new System.Drawing.Point(1282, 1039);
             this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(46, 52);
+            this.button20.Size = new System.Drawing.Size(64, 52);
             this.button20.TabIndex = 25;
             this.button20.Text = "w";
             this.button20.UseVisualStyleBackColor = false;
@@ -404,10 +404,10 @@
             // 
             this.button21.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button21.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button21.Font = new System.Drawing.Font("Playbill", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button21.Location = new System.Drawing.Point(526, 692);
+            this.button21.Font = new System.Drawing.Font("Playbill", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button21.Location = new System.Drawing.Point(1187, 1039);
             this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(46, 52);
+            this.button21.Size = new System.Drawing.Size(74, 52);
             this.button21.TabIndex = 24;
             this.button21.Text = "v";
             this.button21.UseVisualStyleBackColor = false;
@@ -417,10 +417,10 @@
             // 
             this.button23.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button23.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button23.Font = new System.Drawing.Font("Playbill", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button23.Location = new System.Drawing.Point(775, 692);
+            this.button23.Font = new System.Drawing.Font("Playbill", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button23.Location = new System.Drawing.Point(1535, 1039);
             this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(46, 52);
+            this.button23.Size = new System.Drawing.Size(70, 52);
             this.button23.TabIndex = 28;
             this.button23.Text = "z";
             this.button23.UseVisualStyleBackColor = false;
@@ -430,10 +430,10 @@
             // 
             this.button24.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button24.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button24.Font = new System.Drawing.Font("Playbill", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button24.Location = new System.Drawing.Point(712, 692);
+            this.button24.Font = new System.Drawing.Font("Playbill", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button24.Location = new System.Drawing.Point(1454, 1039);
             this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(46, 52);
+            this.button24.Size = new System.Drawing.Size(64, 52);
             this.button24.TabIndex = 27;
             this.button24.Text = "y";
             this.button24.UseVisualStyleBackColor = false;
@@ -444,7 +444,7 @@
             this.restart_Button.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.restart_Button.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.restart_Button.Font = new System.Drawing.Font("Playbill", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.restart_Button.Location = new System.Drawing.Point(1001, 485);
+            this.restart_Button.Location = new System.Drawing.Point(2182, 854);
             this.restart_Button.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.restart_Button.Name = "restart_Button";
             this.restart_Button.Size = new System.Drawing.Size(195, 69);
@@ -460,9 +460,9 @@
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pictureBox1.Image = global::Hangman.Properties.Resources.high_noon_original;
             this.pictureBox1.InitialImage = null;
-            this.pictureBox1.Location = new System.Drawing.Point(899, 1);
+            this.pictureBox1.Location = new System.Drawing.Point(2094, 1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(297, 241);
+            this.pictureBox1.Size = new System.Drawing.Size(687, 554);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 30;
             this.pictureBox1.TabStop = false;
@@ -472,7 +472,7 @@
             this.button2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button2.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.button2.Font = new System.Drawing.Font("Playbill", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(1013, 768);
+            this.button2.Location = new System.Drawing.Point(2192, 1213);
             this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(195, 69);
@@ -485,7 +485,7 @@
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 20;
-            this.listBox1.Location = new System.Drawing.Point(899, 753);
+            this.listBox1.Location = new System.Drawing.Point(2257, 1290);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(120, 84);
             this.listBox1.TabIndex = 32;
@@ -499,7 +499,7 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackgroundImage = global::Hangman.Properties.Resources.Background_Image;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1197, 831);
+            this.ClientSize = new System.Drawing.Size(2782, 1386);
             this.ControlBox = false;
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.button2);
