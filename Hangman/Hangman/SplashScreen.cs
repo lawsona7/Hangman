@@ -1,21 +1,25 @@
 ﻿using System;
 using System.Windows.Forms;
 using System.Threading;
+using WMPLib;
+
 
 namespace Hangman
 {
     public partial class SplashScreen : Form
     {
+        WindowsMediaPlayer player = new WindowsMediaPlayer();
         Thread th;
 
         public SplashScreen()
         {
             InitializeComponent();
+            player.URL = "The Good the Bad and the Ugly.mp3";
         }
 
         private void SplashScreen_Load(object sender, EventArgs e)
         {
-
+            player.controls.play();
         }
 
         private void button1_Click(object sender, EventArgs e)
