@@ -109,11 +109,12 @@
             // 
             this.lblWinLose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblWinLose.BackColor = System.Drawing.Color.Transparent;
-            this.lblWinLose.Font = new System.Drawing.Font("Playbill", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblWinLose.Font = new System.Drawing.Font("Playbill", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWinLose.Location = new System.Drawing.Point(2099, 575);
             this.lblWinLose.Name = "lblWinLose";
             this.lblWinLose.Size = new System.Drawing.Size(682, 127);
             this.lblWinLose.TabIndex = 3;
+            this.lblWinLose.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblShowWord
             // 

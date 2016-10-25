@@ -29,18 +29,34 @@ namespace Hangman
 
         private void loadwords() //*load words in*/
         {
+                       
             char[] delimiterChars = { ',' };
-            string[] readText = File.ReadAllLines("wordLibrary.txt");
-            words = new string[readText.Length];
-            int index = 0;
-            foreach (string s in readText)
+            try
             {
-                string[] line = s.Split(delimiterChars);
-                words[index++] = line[1];
-                
+                string[] readText = File.ReadAllLines("wordLibrary.txt");
+                words = new string[readText.Length];
+                int index = 0;
+                foreach (string s in readText)
+                {
+                    string[] line = s.Split(delimiterChars);
+                    words[index++] = line[1];
+
+                }
+            }
+            catch(InvalidOperationException)
+            {
+
+                while (MessageBox.Show("The word library could not be found. The application will now close.", "", MessageBoxButtons.OK) == DialogResult.OK)
+                {
+                    Application.Exit();
+                }
+            }
+            finally
+            {
             }
 
         }
+     
 
         private void setupWordChoice() //* selects a word randomly*/
         {
