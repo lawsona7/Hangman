@@ -11,7 +11,7 @@ namespace Hangman
         private Bitmap[] hangImages = {Hangman.Properties.Resources.Hang1, Hangman.Properties.Resources.Hang2,
                                        Hangman.Properties.Resources.Hang3, Hangman.Properties.Resources.Hang4,
                                        Hangman.Properties.Resources.Hang5, Hangman.Properties.Resources.Hang6,
-                                       Hangman.Properties.Resources.Hang7};
+                                       Hangman.Properties.Resources.Hang7, Hangman.Properties.Resources.Hang8};
         private int wrongGuesses = 0;
         private string current = "";
         private string copyCurrent = "";

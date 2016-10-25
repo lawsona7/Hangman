@@ -104,27 +104,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Hang1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Hang2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Hang3.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Hang4.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Hang5.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Hang6.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Hang7.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Hangman.ico" />
   </ItemGroup>
   <ItemGroup>
@@ -153,6 +132,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\You Win.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hang1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hang2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hang3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hang4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hang5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hang6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hang7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hang8.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -91,7 +91,7 @@
             // hangImage
             // 
             this.hangImage.BackColor = System.Drawing.SystemColors.Control;
-            this.hangImage.Image = global::Hangman.Properties.Resources.Hang1;
+            this.hangImage.Image = ((System.Drawing.Image)(resources.GetObject("hangImage.Image")));
             this.hangImage.Location = new System.Drawing.Point(312, 1);
             this.hangImage.Name = "hangImage";
             this.hangImage.Size = new System.Drawing.Size(581, 288);
